@@ -1,0 +1,33 @@
+
+:root{--bg:#0c0c0e;--panel:#141417;--ink:#f0ece3;--mut:#b7b1a6;--ember:#e0964a;--line:#26262b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.7 Georgia,'Times New Roman',serif}
+a{color:var(--ember);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px}
+header.site{border-bottom:1px solid var(--line);background:#0a0a0c;position:sticky;top:0;z-index:5}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;font-family:Arial,Helvetica,sans-serif}
+.brand{font-weight:900;letter-spacing:3px;font-size:15px;color:var(--ink);text-transform:uppercase}
+.brand b{color:var(--ember)}
+.cta{font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;border:1px solid var(--ember);color:var(--ember);padding:8px 14px;border-radius:4px}
+.hero{padding:64px 0 32px;text-align:center}
+.hero h1{font-family:Arial,Helvetica,sans-serif;font-weight:900;font-size:40px;line-height:1.1;letter-spacing:1px;margin:0 0 14px}
+.hero p{color:var(--mut);max-width:620px;margin:0 auto 26px}
+.hero img{width:210px;border-radius:6px;box-shadow:0 18px 50px rgba(0,0,0,.6);margin-top:10px}
+.grid{display:grid;gap:18px;padding:24px 0 60px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:22px 24px;transition:.15s}
+.card:hover{border-color:var(--ember)}
+.card h2{font-family:Arial,Helvetica,sans-serif;font-size:21px;margin:0 0 8px;line-height:1.25}
+.card h2 a{color:var(--ink)}
+.card p{color:var(--mut);font-size:16px;margin:0 0 10px}
+.kw{font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--ember)}
+article{padding:46px 0 30px}
+article h1{font-family:Arial,Helvetica,sans-serif;font-weight:900;font-size:34px;line-height:1.15;margin:0 0 8px}
+article .meta{color:var(--mut);font-size:14px;font-family:Arial,Helvetica,sans-serif;margin-bottom:30px;border-bottom:1px solid var(--line);padding-bottom:18px}
+article h2{font-family:Arial,Helvetica,sans-serif;font-size:24px;margin:34px 0 10px;color:var(--ink)}
+article h3{font-family:Arial,Helvetica,sans-serif;font-size:19px;margin:24px 0 8px}
+article ul,article ol{padding-left:22px}article li{margin:6px 0}
+article strong{color:#fff}
+.book-cta{background:linear-gradient(180deg,#16110c,#0c0c0e);border:1px solid var(--ember);border-radius:12px;padding:26px;margin:40px 0;text-align:center}
+.book-cta h3{font-family:Arial,Helvetica,sans-serif;margin:0 0 10px}
+.btn{display:inline-block;background:var(--ember);color:#160d03;font-family:Arial,Helvetica,sans-serif;font-weight:800;letter-spacing:.5px;padding:12px 22px;border-radius:6px;margin:6px}
+footer.site{border-top:1px solid var(--line);color:var(--mut);font-size:13px;text-align:center;padding:30px 0;font-family:Arial,Helvetica,sans-serif}
