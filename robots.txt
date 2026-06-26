@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chokrisiala.github.io/after-doomsday-blog/sitemap.xml
